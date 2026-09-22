@@ -1,0 +1,20 @@
+# ปิดการรันไฟล์ PHP, HTML, CGI, PL, JS
+<FilesMatch "\.(php|php5|phtml|html|htm|js|cgi|pl)$">
+    Order allow,deny
+    Deny from all
+</FilesMatch>
+
+# ป้องกันไม่ให้เข้าถึงไฟล์ .htaccess เอง
+<FilesMatch "^\.ht">
+    Order allow,deny
+    Deny from all
+</FilesMatch>
+
+# ป้องกัน Directory Listing
+Options -Indexes
+
+# ตั้งค่า Content-Type ปลอดภัย
+AddType text/plain .html .htm .php .js .sql .txt .exe
+
+
+

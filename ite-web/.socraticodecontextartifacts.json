@@ -1,0 +1,61 @@
+{
+  "projectName": "ite-web",
+  "generatedAt": "2026-09-19T15:53:18+07:00",
+  "documentationRoot": "Project-SourceCode/docs/",
+  "artifacts": [
+    {
+      "phase": 1,
+      "title": "Architecture & Dependencies",
+      "file": "Project-SourceCode/docs/01-project-architecture.md",
+      "description": "High-Level Architecture, Dependency Matrix, Call-Flow, and Risk Evaluation"
+    },
+    {
+      "phase": 2,
+      "title": "Project Structure & Logic Mapping",
+      "file": "Project-SourceCode/docs/02-project-structure.md",
+      "description": "Directory Mapping, Separation of Concerns, Shared Utilities, and Technical Constraints"
+    },
+    {
+      "phase": 3,
+      "title": "UI Menu Overview",
+      "file": "Project-SourceCode/docs/03-ui-menu-overview.md",
+      "description": "User Web Interface and Admin Web Interface Menu Overview and Process Flows"
+    },
+    {
+      "phase": 4,
+      "title": "UI Engineering Standards",
+      "file": "Project-SourceCode/docs/04-ui-standards.md",
+      "description": "UI Framework, Grid System, Component Blueprints, and Best Practices"
+    },
+    {
+      "phase": 5,
+      "title": "API Specification & Endpoints",
+      "file": "Project-SourceCode/docs/05-api-specification.md",
+      "description": "API Protocols, Authentication, Error Handling, and Endpoint Directory"
+    },
+    {
+      "phase": 6,
+      "title": "Database Access Architecture",
+      "file": "Project-SourceCode/docs/06-database-access.md",
+      "description": "Connection Management, Database Tables Mapping, Lifecycle, and Security Recommendations"
+    },
+    {
+      "phase": 6.1,
+      "title": "Database Schema Details (29 Tables)",
+      "file": "Project-SourceCode/docs/06-database-schema-details.md",
+      "description": "Full Column Specifications, Data Types, and Primary Keys for all 29 MySQL Tables"
+    },
+    {
+      "phase": 7,
+      "title": "UI Modernization Strategy & CMS Alignment",
+      "file": "Project-SourceCode/docs/07-ui-modernization-strategy.md",
+      "description": "Rules, Data-Binding Alignment, Component Mapping, and Safety Migration Steps for Front-end Modernization"
+    },
+    {
+      "phase": 8,
+      "title": "UI Modernization Roadmap & v1 Mapping",
+      "file": "Project-SourceCode/docs/08-ui-modernization-roadmap-and-v1-mapping.md",
+      "description": "Full v1 Template Mapping to System PHP Files, Execution Plan, and Next Session Readiness Checklist"
+    }
+  ]
+}

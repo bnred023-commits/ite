@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <!-- วงกลมพื้นหลัง -->
+  <circle cx="100" cy="95" r="55" fill="#fde2ed" />
+  <!-- กรอบห้องหลัก -->
+  <rect x="35" y="45" width="130" height="115" fill="none" stroke="#901446" stroke-width="4" stroke-linejoin="round" />
+  <!-- ท่อลมและช่องระบายด้านบน -->
+  <path d="M35,60 H90 V45" fill="none" stroke="#901446" stroke-width="3" />
+  <path d="M35,75 H90 V60" fill="none" stroke="#901446" stroke-width="3" />
+  <rect x="95" y="52" width="25" height="18" fill="none" stroke="#901446" stroke-width="3" />
+  <line x1="107" y1="52" x2="107" y2="70" stroke="#901446" stroke-width="2" />
+  <path d="M120,60 H165" stroke="#901446" stroke-width="3" />
+  <!-- คอยล์/ตู้กรองด้านซ้าย -->
+  <rect x="42" y="90" width="16" height="30" fill="none" stroke="#901446" stroke-width="3" />
+  <line x1="42" y1="97" x2="58" y2="97" stroke="#901446" stroke-width="2" />
+  <line x1="42" y1="105" x2="58" y2="105" stroke="#901446" stroke-width="2" />
+  <line x1="42" y1="113" x2="58" y2="113" stroke="#901446" stroke-width="2" />
+  <rect x="63" y="90" width="16" height="30" fill="none" stroke="#901446" stroke-width="3" />
+  <line x1="63" y1="97" x2="79" y2="97" stroke="#901446" stroke-width="2" />
+  <line x1="63" y1="105" x2="79" y2="105" stroke="#901446" stroke-width="2" />
+  <line x1="63" y1="113" x2="79" y2="113" stroke="#901446" stroke-width="2" />
+  <!-- ประตูกลาง -->
+  <rect x="90" y="80" width="28" height="80" fill="none" stroke="#901446" stroke-width="3" />
+  <rect x="97" y="92" width="14" height="16" rx="3" fill="none" stroke="#901446" stroke-width="2" />
+  <!-- คนสวมชุด PPE ขวามือ -->
+  <circle cx="140" cy="115" r="7" fill="none" stroke="#901446" stroke-width="3" />
+  <path d="M136,108 C134,100 134,95 137,95 C139,95 138,103 138,108" fill="none" stroke="#901446" stroke-width="2" />
+  <path d="M144,108 C146,100 146,95 143,95 C141,95 142,103 142,108" fill="none" stroke="#901446" stroke-width="2" />
+  <path d="M130,160 V128 C130,123 150,123 150,128 V160" fill="none" stroke="#901446" stroke-width="3" />
+  <line x1="140" y1="138" x2="140" y2="160" stroke="#901446" stroke-width="2" />
+</svg>

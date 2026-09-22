@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <!-- วงกลมพื้นหลัง -->
+  <circle cx="100" cy="95" r="55" fill="#fde2ed" />
+  <!-- โคมไฟแขวน -->
+  <line x1="55" y1="40" x2="55" y2="60" stroke="#901446" stroke-width="3" />
+  <path d="M47,68 Q55,60 63,68 Z" fill="none" stroke="#901446" stroke-width="3" />
+  <line x1="80" y1="40" x2="80" y2="60" stroke="#901446" stroke-width="3" />
+  <path d="M72,68 Q80,60 88,68 Z" fill="none" stroke="#901446" stroke-width="3" />
+  <!-- ป้ายเมนูด้านหลัง -->
+  <rect x="110" y="45" width="55" height="28" fill="none" stroke="#901446" stroke-width="3" />
+  <line x1="116" y1="53" x2="133" y2="53" stroke="#901446" stroke-width="2" />
+  <line x1="116" y1="60" x2="133" y2="60" stroke="#901446" stroke-width="2" />
+  <line x1="140" y1="53" x2="157" y2="53" stroke="#901446" stroke-width="2" />
+  <line x1="140" y1="60" x2="157" y2="60" stroke="#901446" stroke-width="2" />
+  <!-- เคาน์เตอร์สั่งอาหาร/ตู้เสิร์ฟ -->
+  <rect x="105" y="90" width="68" height="45" fill="none" stroke="#901446" stroke-width="4" />
+  <path d="M115,88 Q125,78 135,88 Z" fill="none" stroke="#901446" stroke-width="3" />
+  <rect x="140" y="80" width="20" height="8" fill="none" stroke="#901446" stroke-width="2" />
+  <!-- โต๊ะและเก้าอี้ทานข้าว -->
+  <ellipse cx="65" cy="115" rx="20" ry="4" fill="none" stroke="#901446" stroke-width="3" />
+  <line x1="65" y1="119" x2="65" y2="155" stroke="#901446" stroke-width="3" />
+  <line x1="53" y1="155" x2="77" y2="155" stroke="#901446" stroke-width="3" />
+  <!-- เก้าอี้ซ้าย -->
+  <path d="M40,105 H48 V130 H40 Z" fill="none" stroke="#901446" stroke-width="2" />
+  <line x1="42" y1="130" x2="38" y2="155" stroke="#901446" stroke-width="2" />
+  <line x1="46" y1="130" x2="50" y2="155" stroke="#901446" stroke-width="2" />
+  <!-- เก้าอี้ขวา -->
+  <path d="M82,105 H90 V130 H82 Z" fill="none" stroke="#901446" stroke-width="2" />
+  <line x1="84" y1="130" x2="80" y2="155" stroke="#901446" stroke-width="2" />
+  <line x1="88" y1="130" x2="92" y2="155" stroke="#901446" stroke-width="2" />
+</svg>

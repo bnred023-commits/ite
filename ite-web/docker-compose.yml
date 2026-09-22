@@ -1,0 +1,28 @@
+version: '3.8'
+
+services:
+  web:
+    build: .
+    ports:
+      - "8000:80"
+    environment:
+      - DB_HOST=db
+      - DB_USER=itetechc_web01
+      - DB_PASS=FM0$$2tH~A%iP
+      - DB_NAME=itetechc_web01
+    volumes:
+      - ./httpdocs:/var/www/html
+    depends_on:
+      - db
+
+  db:
+    image: mariadb:10.11
+    environment:
+      - MYSQL_ROOT_PASSWORD=rootpassword
+      - MYSQL_DATABASE=itetechc_web01
+      - MYSQL_USER=itetechc_web01
+      - MYSQL_PASSWORD=FM0$$2tH~A%iP
+    ports:
+      - "3306:3306"
+    volumes:
+      - ./itetechc_web01_2026-09-19_14-48-11.sql:/docker-entrypoint-initdb.d/init.sql
